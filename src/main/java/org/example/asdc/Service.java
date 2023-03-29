@@ -1,4 +1,4 @@
-package org.example.lab0;
+package org.example.asdc;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;

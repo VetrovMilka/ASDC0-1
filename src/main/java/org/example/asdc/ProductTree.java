@@ -1,4 +1,4 @@
-package org.example.lab0;
+package org.example.asdc;
 
 public class ProductTree {
 
