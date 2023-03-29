@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab0;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -8,9 +8,9 @@ import java.util.List;
 public class Service {
 
     public static String SEPARATOR = ";";
-    public static Product read(String data) {
+    public static Product csvToProduct(String data) {
         try {
-            String[] tokens = data.split(Service.SEPARATOR);
+            String[] tokens = data.split(SEPARATOR);
             return Product.create(
                     Integer.parseInt(tokens[0]),
                     tokens[1],
@@ -25,14 +25,13 @@ public class Service {
         return null;
     }
 
-    public static List<Product> readData(String path) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(path, StandardCharsets.UTF_8));
+    public static List<Product> readData(String path) {
         String data;
         List<Product> result = new ArrayList<>();
-        try {
+        try (BufferedReader reader = new BufferedReader(new FileReader(path, StandardCharsets.UTF_8))) {
             while((data = reader.readLine()) != null) {
                 data = data.replaceAll("\\p{C}", "");
-                Product product = Service.read(data);
+                Product product = csvToProduct(data);
                 result.add(product);
             }
         } catch(IOException e) {

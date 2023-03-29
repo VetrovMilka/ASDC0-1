@@ -1,6 +1,8 @@
-package org.example;
+package org.example.lab0;
 
-public class Product {
+import java.util.Comparator;
+
+public class Product implements Comparable<Product>{
     private Integer id;
     private String name;
     private String description;
@@ -33,6 +35,7 @@ public class Product {
                                  Integer pieces, String unitOfMeasurement){
         return new Product(id, name, description, price, pieces, unitOfMeasurement);
     }
+
 
     public Product copy(){
         return new Product(this);
@@ -97,4 +100,20 @@ public class Product {
                 ";" + pieces +
                 ";" + unitOfMeasurement;
     }
+
+    @Override
+    public int compareTo(Product o) {
+        return this.getId() - o.getId();
+    }
+    private static class ProductComparator implements Comparator<Product> {
+        @Override
+        public int compare(Product o1, Product o2) {
+            return o1.getId() - o2.getId();
+        }
+    }
+
+    public static Comparator<Product> getComparator(){
+        return new ProductComparator();
+    }
 }
+
