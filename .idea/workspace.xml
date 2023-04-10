@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f0bf43-0579-454d-ae9d-33362fc8b698" name="Changes" comment="Small refactor in Main">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lab0/ProductTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lab0/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="61f0bf43-0579-454d-ae9d-33362fc8b698" name="Changes" comment="package renamed to asdc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Products.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Products.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab0/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab0/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab0/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/asdc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/asdc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/asdc/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/asdc/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +60,11 @@
 }</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lab0.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.example.asdc.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lab0.*" />
+          <option name="PATTERN" value="org.example.asdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +98,10 @@
       <workItem from="1678391694262" duration="55000" />
       <workItem from="1678442345962" duration="15000" />
       <workItem from="1680014386609" duration="7894000" />
-      <workItem from="1680079260935" duration="2729000" />
+      <workItem from="1680079260935" duration="3504000" />
+      <workItem from="1680251599718" duration="135000" />
+      <workItem from="1680797907902" duration="448000" />
+      <workItem from="1681146335886" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="Logic is working, exception while parsing first id">
       <created>1677167467504</created>
@@ -141,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677172604983</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="All sort methods realised">
+      <created>1680082134440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680082134440</updated>
+    </task>
+    <task id="LOCAL-00007" summary="package renamed to asdc">
+      <created>1680082173836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680082173836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +175,8 @@
     <MESSAGE value="Equals and hashcode methods added" />
     <MESSAGE value="Fixed first invisible character&#10;Adding products to the file feature implemented" />
     <MESSAGE value="Small refactor in Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small refactor in Main" />
+    <MESSAGE value="All sort methods realised" />
+    <MESSAGE value="package renamed to asdc" />
+    <option name="LAST_COMMIT_MESSAGE" value="package renamed to asdc" />
   </component>
 </project>

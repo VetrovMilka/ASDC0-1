@@ -15,17 +15,16 @@ public class Sort {
         return null;
     }
 
-        public static Product searchInTree(List<Product> products, int targetId) {
+    public static Product searchInTree(List<Product> products, int targetId) {
 
-            products.sort(Product.getComparator());
+        products.sort(Product.getComparator());
 
-            ProductTree productTree = new ProductTree();
-            for(Product product : products){
-                productTree.add(product);
-            }
-            Product result = products.get(targetId-1);
-            return productTree.get(result);
-
+        ProductTree productTree = new ProductTree();
+        for(Product product : products){
+            productTree.add(product);
+        }
+        Product result = products.get(targetId-1);
+        return productTree.get(result);
     }
 
     public static Product binarySearch(List<Product> products, int targetId) {
@@ -119,7 +118,6 @@ public class Sort {
         if (fibMMm1 == 1 && products.get(offset + 1).compareTo(product) == 0) {
             return products.get(offset + 1);
         }
-
         return null;
     }
 }
