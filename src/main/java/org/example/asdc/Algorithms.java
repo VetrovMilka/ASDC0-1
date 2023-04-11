@@ -2,7 +2,7 @@ package org.example.asdc;
 
 import java.util.List;
 
-public class Sort {
+public class Algorithms {
 
 
     public static Product linearSearch(List<Product> products, int targetId) {

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f0bf43-0579-454d-ae9d-33362fc8b698" name="Changes" comment="package renamed to asdc">
+    <list default="true" id="61f0bf43-0579-454d-ae9d-33362fc8b698" name="Changes" comment="Added search time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/asdc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/asdc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/asdc/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/asdc/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/asdc/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/asdc/Algorithms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1680079260935" duration="3504000" />
       <workItem from="1680251599718" duration="135000" />
       <workItem from="1680797907902" duration="448000" />
-      <workItem from="1681146335886" duration="618000" />
+      <workItem from="1681146335886" duration="1837000" />
     </task>
     <task id="LOCAL-00001" summary="Logic is working, exception while parsing first id">
       <created>1677167467504</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680082173836</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added search time">
+      <created>1681147225625</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681147225625</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +184,7 @@
     <MESSAGE value="Small refactor in Main" />
     <MESSAGE value="All sort methods realised" />
     <MESSAGE value="package renamed to asdc" />
-    <option name="LAST_COMMIT_MESSAGE" value="package renamed to asdc" />
+    <MESSAGE value="Added search time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added search time" />
   </component>
 </project>
