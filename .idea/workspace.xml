@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f0bf43-0579-454d-ae9d-33362fc8b698" name="Changes" comment="Added search time">
+    <list default="true" id="61f0bf43-0579-454d-ae9d-33362fc8b698" name="Changes" comment="Sort class renamed to Algorithms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/asdc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/asdc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/asdc/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/asdc/Algorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/asdc/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/asdc/Algorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/asdc/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/asdc/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -101,7 +104,8 @@
       <workItem from="1680079260935" duration="3504000" />
       <workItem from="1680251599718" duration="135000" />
       <workItem from="1680797907902" duration="448000" />
-      <workItem from="1681146335886" duration="1837000" />
+      <workItem from="1681146335886" duration="2184000" />
+      <workItem from="1681226587085" duration="386000" />
     </task>
     <task id="LOCAL-00001" summary="Logic is working, exception while parsing first id">
       <created>1677167467504</created>
@@ -159,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681147225625</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Sort class renamed to Algorithms">
+      <created>1681225211614</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681225211614</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +196,7 @@
     <MESSAGE value="All sort methods realised" />
     <MESSAGE value="package renamed to asdc" />
     <MESSAGE value="Added search time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added search time" />
+    <MESSAGE value="Sort class renamed to Algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort class renamed to Algorithms" />
   </component>
 </project>

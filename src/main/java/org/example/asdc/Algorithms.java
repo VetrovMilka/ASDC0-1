@@ -1,5 +1,6 @@
 package org.example.asdc;
 
+import java.util.Collections;
 import java.util.List;
 
 public class Algorithms {
@@ -17,7 +18,7 @@ public class Algorithms {
 
     public static Product searchInTree(List<Product> products, int targetId) {
 
-        products.sort(Product.getComparator());
+        Collections.sort(products);
 
         ProductTree productTree = new ProductTree();
         for(Product product : products){
@@ -29,7 +30,7 @@ public class Algorithms {
 
     public static Product binarySearch(List<Product> products, int targetId) {
 
-        products.sort(Product.getComparator());
+        Collections.sort(products);
 
         int left = 0;
         int right = products.size() - 1;
@@ -54,7 +55,7 @@ public class Algorithms {
 
     public static Product interpolationSearch(List<Product> products, int targetId) {
 
-        products.sort(Product.getComparator());
+        Collections.sort(products);
 
         int left = 0;
         int right = products.size() - 1;
@@ -82,7 +83,7 @@ public class Algorithms {
 
     public static Product fibonacciSearch(List<Product> products, int targetId) {
 
-        products.sort(Product.getComparator());
+        Collections.sort(products);
 
         Product product = products.get(targetId);
         int n = products.size();

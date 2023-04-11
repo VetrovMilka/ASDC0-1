@@ -1,7 +1,5 @@
 package org.example.asdc;
 
-import java.util.Comparator;
-
 public class Product implements Comparable<Product>{
     private Integer id;
     private String name;
@@ -104,16 +102,6 @@ public class Product implements Comparable<Product>{
     @Override
     public int compareTo(Product o) {
         return this.getId() - o.getId();
-    }
-    private static class ProductComparator implements Comparator<Product> {
-        @Override
-        public int compare(Product o1, Product o2) {
-            return o1.getId() - o2.getId();
-        }
-    }
-
-    public static Comparator<Product> getComparator(){
-        return new ProductComparator();
     }
 }
 
